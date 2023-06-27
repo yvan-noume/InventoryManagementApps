@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementDomainLayer", "InventoryManagementDomainLayer\InventoryManagementDomainLayer.csproj", "{E23708EC-8D99-40B3-8CD5-DEAC0BC3745B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementApplicationLayer", "InventoryManagementApplicationLayer\InventoryManagementApplicationLayer.csproj", "{2534D05D-39FD-43A4-A6EE-02FAF67F9CC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementDataAccessLayer", "InventoryManagementDataAccessLayer\InventoryManagementDataAccessLayer.csproj", "{5501021F-ABD0-4260-B399-D8A6F278D2C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementPresentationLayer", "InventoryManagementPresentationLayer\InventoryManagementPresentationLayer.csproj", "{2DE80192-6B88-473F-A005-A0B580F9C811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5717E810-1825-4C01-9ECF-A7ABB63BFE3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementDomainLayerTests", "InventoryManagementDomainLayerTests\InventoryManagementDomainLayerTests.csproj", "{A4EB80DE-CD54-45AF-B96C-E38AE6520CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementPresentationLayerTests", "InventoryManagementPresentationLayerTests\InventoryManagementPresentationLayerTests.csproj", "{13F6F567-7E7A-40BF-8F81-B1C86053DEE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23708EC-8D99-40B3-8CD5-DEAC0BC3745B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23708EC-8D99-40B3-8CD5-DEAC0BC3745B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23708EC-8D99-40B3-8CD5-DEAC0BC3745B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23708EC-8D99-40B3-8CD5-DEAC0BC3745B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2534D05D-39FD-43A4-A6EE-02FAF67F9CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2534D05D-39FD-43A4-A6EE-02FAF67F9CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2534D05D-39FD-43A4-A6EE-02FAF67F9CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2534D05D-39FD-43A4-A6EE-02FAF67F9CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5501021F-ABD0-4260-B399-D8A6F278D2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5501021F-ABD0-4260-B399-D8A6F278D2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5501021F-ABD0-4260-B399-D8A6F278D2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5501021F-ABD0-4260-B399-D8A6F278D2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE80192-6B88-473F-A005-A0B580F9C811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE80192-6B88-473F-A005-A0B580F9C811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE80192-6B88-473F-A005-A0B580F9C811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE80192-6B88-473F-A005-A0B580F9C811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EB80DE-CD54-45AF-B96C-E38AE6520CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EB80DE-CD54-45AF-B96C-E38AE6520CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EB80DE-CD54-45AF-B96C-E38AE6520CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EB80DE-CD54-45AF-B96C-E38AE6520CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F6F567-7E7A-40BF-8F81-B1C86053DEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F6F567-7E7A-40BF-8F81-B1C86053DEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F6F567-7E7A-40BF-8F81-B1C86053DEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F6F567-7E7A-40BF-8F81-B1C86053DEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4EB80DE-CD54-45AF-B96C-E38AE6520CC0} = {5717E810-1825-4C01-9ECF-A7ABB63BFE3E}
+		{13F6F567-7E7A-40BF-8F81-B1C86053DEE8} = {5717E810-1825-4C01-9ECF-A7ABB63BFE3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E332E7DF-90ED-427E-857D-17A30CF19A8C}
+	EndGlobalSection
+EndGlobal
